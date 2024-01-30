@@ -1,19 +1,22 @@
 // Question-1
-let variables1, variable2, variable3, variable4;
+let employee_id, employee_name, employee_salary, employee_mail;
 
 // Question-2
-let assignedVar1 = 10, assignedVar2 = "Hello", assignedVar3 = true, 
-assignedVar4 = [1, 2, 3];
+let assignedVar1 = 10;
+const gravity = 9.8; 
+const PI = 3.14;
+let assignedVar4 = [1, 2, 3];
 
 //Question-3
-let firstName = "John";
-let lastName = "Doe";
-let maritalStatus = "Single";
+const firstName = "John";
+const lastName = "Doe";
+const maritalStatus = "Single";
 let country = "India";
-let age = 25;
+const age = 25;
 
 //Question-4
-let firstNameSingle, lastNameSingle, maritalStatusSingle, countrySingle;
+let fatherName, motherName, fatherAge;
+
 
 //Question-5;
 let myAge = 30;
