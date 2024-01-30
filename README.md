@@ -43,6 +43,8 @@ Basic definition of JavaScript
 
 => compiler translates the entire source code into machine code before execution, resulting in faster execution since no translation is needed during runtime. On the other hand, an interpreter translates code line by line during execution, making it easier to detect errors but potentially slowing down the program.
 
+#Assignments
+
 Day-1 
 1. Write programmes having function to differentiate in between let , const and var.
 
