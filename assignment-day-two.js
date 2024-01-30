@@ -8,18 +8,17 @@ const PI = 3.14;
 let assignedVar4 = [1, 2, 3];
 
 //Question-3
-const firstName = "John";
-const lastName = "Doe";
+const firstName = "Pranjal";
+const lastName = "Sinha";
 const maritalStatus = "Single";
 let country = "India";
-const age = 25;
+const age = 21;
 
 //Question-4
 let fatherName, motherName, fatherAge;
 
-
 //Question-5;
 let myAge = 30;
 let YourAge = 28;
-console.log("my age:", myAge);
+console.log("my age:", MyAge);
 console.log("Your age:", YourAge);
