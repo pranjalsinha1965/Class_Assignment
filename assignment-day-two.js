@@ -1,5 +1,8 @@
 // Question-1
-let employee_id, employee_name, employee_salary, employee_mail;
+let employee_id;
+let employee_name; 
+let employee_salary; 
+let employee_mail;
 
 // Question-2
 let assignedVar1 = 10;
@@ -18,7 +21,7 @@ const age = 21;
 let fatherName, motherName, fatherAge;
 
 //Question-5;
-let myAge = 30;
-let YourAge = 28;
+const myAge = 30;
+const YourAge = 28;
 console.log("my age:", MyAge);
 console.log("Your age:", YourAge);
