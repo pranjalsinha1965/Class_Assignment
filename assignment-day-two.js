@@ -5,7 +5,7 @@ let employee_id, employee_name, employee_salary, employee_mail;
 let assignedVar1 = 10;
 const gravity = 9.8; 
 const PI = 3.14;
-let assignedVar4 = [1, 2, 3];
+let isLoggedin = false;
 
 //Question-3
 const firstName = "Pranjal";
