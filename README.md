@@ -23,7 +23,6 @@ From sources across the web
 8. Jsbin
 9. NativeScript
 
-
 Basic definition of JavaScript
 1. JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, ...
 
@@ -46,9 +45,11 @@ Basic definition of JavaScript
 #Assignments
 
 Day-1 
+
 1. Write programmes having function to differentiate in between let , const and var.
 
 Day-2
+
 1. Declare four variables without assigning values
 2. Declare four variables with assigned values
 3. Declare variables to store your first name, last name, marital status, country and age in multiple lines
@@ -56,7 +57,7 @@ Day-2
 5. Declare two variables myAge and yourAge and assign them initial values and log to the browser console.
 
 Day-3
-Day-3 Assignment
-Create a file and declare variables and assign string, boolean, undefined and null data types
-Create file and use the JavaScript typeof operator to check different data types. Check the data type of each variable
+
+1. Create a file and declare variables and assign string, boolean, undefined and null data types
+2. Create file and use the JavaScript typeof operator to check different data types. Check the data type of each variable
 DEADLINE - EOD (5PM) 
