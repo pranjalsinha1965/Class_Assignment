@@ -56,7 +56,7 @@ Day-2
 5. Declare two variables myAge and yourAge and assign them initial values and log to the browser console.
 
 Day-3
-1. Can undefined and null be passed as value in array and object.
+1. Can undefined and null be passed as value in array and object?
 2. Difference between non-primitive and collection datatypes
 3. Explore console.log()
 4. Explore NaN and its example
