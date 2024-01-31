@@ -56,7 +56,7 @@ Day-2
 5. Declare two variables myAge and yourAge and assign them initial values and log to the browser console.
 
 Day-3
-1. Can undefined and null be passed as value in array and object?
-2. Difference between non-primitive and collection datatypes
-3. Explore console.log()
-4. Explore NaN and its example
+Day-3 Assignment
+Create a file and declare variables and assign string, boolean, undefined and null data types
+Create file and use the JavaScript typeof operator to check different data types. Check the data type of each variable
+DEADLINE - EOD (5PM) 
