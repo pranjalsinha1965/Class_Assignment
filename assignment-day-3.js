@@ -6,9 +6,9 @@
 // File1 - Question_1
 //Declared variables using string, boolean, undefined and null data types
 
-const FirstName = "Pranjal";
-const LastName = "Sinha";
-const AreaName = "WadgaonSheri";
+const firstName = "Pranjal";
+const lastName = "Sinha";
+const areaName = "WadgaonSheri";
 
 console.log(FirstName + LastName + " " +AreaName);
 
@@ -37,19 +37,19 @@ console.log(arrayUndefined);
 const temperature = null;
 console.log(typeof temperature);
 
-const TotalSquares = Math.sqrt(4);
+const totalSquares = Math.sqrt(4);
 console.log(typeof TotalSquares);
 
-const ActiveState = true;
+const activeState = true;
 console.log(typeof ActiveState);
 
 const mySite = "HarvardCS50";
 console.log(typeof mySite);
 
-const large_num = BigInt('1000000000000000000000007');
+const largeNum = BigInt('1000000000000000000000007');
 console.log(typeof large_num);
 
-const sym = Symbol('Theta');
+const symConst = Symbol('Theta');
 console.log(typeof sym);
 
 function hi()
@@ -64,7 +64,7 @@ hi();
 
 console.log(typeof hi);
 
-const objNull = null;
+const objType = null;
 console.log(typeof objNull);
 
 const remainder = undefined //incase of 0 divided by infinity
