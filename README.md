@@ -60,4 +60,18 @@ Day-3
 
 1. Create a file and declare variables and assign string, boolean, undefined and null data types
 2. Create file and use the JavaScript typeof operator to check different data types. Check the data type of each variable
-DEADLINE - EOD (5PM) 
+DEADLINE - EOD (5PM)
+
+Day-4
+
+1. Check if typeof '10' is exactly equal to 10. If not make it exactly equal.
+2. Check if parseFloat('9.8') is equal to 10 if not make it exactly equal with 10.
+3. Generate a random number between 0 and 100 inclusively.
+4. Generate a random number between 50 and 100 inclusively.
+5. Use console.log() and escape characters to print the following pattern.
+1 1 1 1 1
+2 1 2 4 8
+3 1 3 9 27
+4 1 4 16 64
+5 1 5 25 125
+6. Enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
