@@ -13,3 +13,4 @@ function feast(beast, dish) {
 console.log(feast("great blue heron", "garlic naan")); // Returns true
 console.log(feast("chickadee", "chocolate cake")); // Returns true
 console.log(feast("lion", "lasagna")); // Returns false
+//Done on 2nd February, 2024
