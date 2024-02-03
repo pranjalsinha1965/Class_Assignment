@@ -75,3 +75,35 @@ Day-4
 4 1 4 16 64
 5 1 5 25 125
 6. Enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
+
+Day-5
+DAY-5 Assignment
+1. Declare a variable and assign a value 'Easy JavaScript Assignments'.
+2. Print the length of the string.
+3. Change all the string characters to capital letters using toUpperCase() method
+4. Change all the string characters to lowercase letters using toLowerCase() method
+5. Slice out the first word of the string using substr() and substring() method
+6. Slice out the phrase JavaScript Assignments from 'Easy JavaScript Assignments'..
+7. Check if the string contains a word Script using includes() method
+8. Split the string into an array using split() method
+9. Split the string 'Easy JavaScript Assignments' at the space using split() method
+10. 'ELTP, BATCH, THREE' split the string at the comma and change it to an array.
+11. Change 'Easy JavaScript Assignments' to 'Easy Python Assignments' using replace() method.
+12. What is character at index 20 in 'Easy JavaScript Assignments' string? Use charAt() method.
+13. What is the character code of J in 'Easy JavaScript Assignments' string using charCodeAt()
+14. Use indexOf to determine the position of the first occurrence of 'a' in 'Easy JavaScript Assignments'
+15. Use lastIndexOf to determine the position of the last occurrence of 'a' in 'Easy JavaScript Assignments'.
+16. Use indexOf to find the position of the first occurrence of the word 'Easy' in the following sentence:'Easy JavaScript Assignments, Easy Easy'
+17. Use lastIndexOf to find the position of the last occurrence of the word 'Easy' in the following sentence:'Easy JavaScript Assignments, Easy Easy'
+18. Use search to find the position of the first occurrence of the word 'Easy' in the following sentence: 'Easy JavaScript Assignments, Easy Easy'
+19. Use trim() to remove any trailing whitespace at the beginning and the end of a string. '       Easy JavaScript Assignments, Easy Easy             '
+20. Use startsWith() method with the string 'Easy JavaScript Assignments' and make the result true
+21. Use endsWith() method with the string 'Easy JavaScript Assignments' and make the result true
+22. Use match() method to find all the a’s in 'Easy JavaScript Assignments'
+23. Use concat() and merge 'Easy' and 'JavaScript' to a single string.
+24. Use repeat() method to print 'Easy JavaScript' 3 times.
+25. 'Javascript is Easy, too Easy, too Easy, Easy to learn' Count the number of word 'Easy' in this sentence.
+26. Use match() to count the number of all 'Easy' in the following sentence:'Javascript is Easy, too Easy, too Easy, Easy to learn'
+27. Clean the following text and find the most frequent word (hint, use replace and regular expressions).
+    const sentence = '%I $am@% a %softwa@r%e %e@ngineer, &and& %java@sc@ript% is Ea%s#y;
+28. Calculate the total annual income of the person by extracting the numbers from the following text. 'I earn 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro from freelancing, and 50000 euro from trading'
