@@ -8,51 +8,51 @@ console.log(parseInt('8.8') == 9);
 
 // 3. Boolean value is either true or false.
 // (a). Write five JavaScript statement which provide falsy value.
-const bNoParam = new Boolean();
-console.log(bNoParam);
+const varNoParam = new Boolean();
+console.log(varNoParam);
 
-const bZero = new Boolean(0);
-console.log(bZero);
+const varZero = new Boolean(0);
+console.log(varZero);
 
-const bNull = new Boolean(null);
-console.log(bNull);
+const varNull = new Boolean(null);
+console.log(varNull);
 
-const bEmptyString = new Boolean("");
-console.log(bEmptyString);
+const varEmptyString = new Boolean("");
+console.log(varEmptyString);
 
-const bFalse = new Boolean(false);
-console.log(bFalse);
+const varFalse = new Boolean(false);
+console.log(varFalse);
 
-const bNaN = new Boolean(NaN);
-console.log(bNaN);
+const varNaN = new Boolean(NaN);
+console.log(varNaN);
 
 // (b). Write five JavaScript statement which provide truthy  value.
-const bString = new Boolean('0');
-console.log(bString);
+const varString = new Boolean('0');
+console.log(varString);
 
-const bText = new Boolean('truthy');
-console.log(bText);
+const varText = new Boolean('truthy');
+console.log(varText);
 
-const bArray = new Boolean([]);
-console.log(bArray);
+const varArray = new Boolean([]);
+console.log(varArray);
 
-const bObject = new Boolean({});
-console.log(bObject);
+const varObject = new Boolean({});
+console.log(varObject);
 
-const bFunction = new Boolean(function(){});
-console.log(bFunction);
+const varFunction = new Boolean(function(){});
+console.log(varFunction);
 
 // 4. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
 // (a).5 > 4
-//Answer True
+//Answer True, correct statement
 console.log(5 > 4);
 
 // (b).4 >= 3
-//Answer true
+//Answer true, correct statement
 console.log(4 >= 3);
 
 // (c).4 < 3
-//Answer false
+//Answer false, incorrect statement
 console.log(4 < 3);
 
 // (d).4 <= 3
@@ -60,39 +60,39 @@ console.log(4 < 3);
 console.log(4 <= 3);
 
 // (e).5 == 5
-//Answer true
+//Answer true, correct statement
 console.log(5 == 5);
 
 // (f).9 === 9
-//Answer true
-console.log(9 == 9);
+//Answer true, as type is number only
+console.log(9 === 9);
 
 // (g).9 == '9'
-//Answer true
+//Answer true, since value remains constant
 console.log(9 == '9');
 
 // (h).8 === '8'
-//Answer true
+//Answer true, type remains the same
 console.log(8 == '8');
 
 // (i).4 != 4
-//Answer false
+//Answer false, as 4 = 4
 console.log(4 != 4);
 
 // (j).4 !== 4
-//Answer false
+//Answer false, type is same only 
 console.log(4 !== 4)
 
 // (k).4 != '4'
-//Answer false
+//Answer false, value is same only 
 console.log(4 != '4');
 
 // (l)4 != '4'
-//Answer false
+//Answer false, value is same only 
 console.log(4 != '4');
 
 // (m).4 !== '4'
-//Answer false 
+//Answer false, type is same only 
 console.log(4 !== 4);
 
 // (n.)Find the length of python and jargon and make a falsy comparison statement.
@@ -100,44 +100,44 @@ console.log('python'.length > 'jargon'.length)
 
 // 5. Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
 // (a).4 > 3 && 10 < 12
-const checkA = 4 > 3 && 10 < 12;         // true && true -> true
-console.log(checkA);
+const checkOptionA = 4 > 3 && 10 < 12;         // true && true -> true
+console.log(checkOptionA);
 
 // (b).4 > 3 && 10 > 12
-const checkB = 4 > 3 && 10 > 12          // true && false -> false
-console.log(checkB);
+const checkOptionB = 4 > 3 && 10 > 12          // true && false -> false
+console.log(checkOptionB);
 
 // (c).4 > 3 || 10 < 12
-const checkC = 4 > 3 || 10 < 12;         //true || false -> true
-console.log(checkC);
+const checkOptionC = 4 > 3 || 10 < 12;         //true || false -> true
+console.log(checkOptionC);
 
 // (d).4 > 3 || 10 > 12                  //true || false -> true
-const checkD = 4 > 3 || 10 < 12;
-console.log(checkD);
+const checkOptionD = 4 > 3 || 10 < 12;
+console.log(checkOptionD);
 
 // (e).!(4 > 3)
-const checkE = !(4 > 3);                //!(true) -> flase
-console.log(checkE);
+const checkOptionE = !(4 > 3);                //!(true) -> flase
+console.log(checkOptionE);
 
 // (f).!(4 < 3)
-const checkF = !(4 < 3);                //!(false) -> true
-console.log(checkF);
+const checkOptionF = !(4 < 3);                //!(false) -> true
+console.log(checkOptionF);
 
 // (g).!(false)
-const checkG = !(false);                //!(false) -> true
-console.log(checkG);
+const checkOptionG = !(false);                //!(false) -> true
+console.log(checkOptionG);
 
 // (h).!(4 > 3 && 10 < 12)
-const checkH = !(4 > 3 && 10 < 12);     //!(4 > 3 && 10 < 12) -> !(true && true) -> !(true) -> false
-console.log(checkH);
+const checkOptionH = !(4 > 3 && 10 < 12);     //!(4 > 3 && 10 < 12) -> !(true && true) -> !(true) -> false
+console.log(checkOptionH);
 
 // (i).!(4 > 3 && 10 > 12)
-const checkI = !(4 > 3 && 10 > 12);     //!(4 > 3 && 10 > 12) -> !(true && false) -> !(false) -> true
-console.log(checkI);
+const checkOptionI = !(4 > 3 && 10 > 12);     //!(4 > 3 && 10 > 12) -> !(true && false) -> !(false) -> true
+console.log(checkOptionI);
 
 // (j).!(4 === '4')
-const checkJ = !(4 === '4');            //!(4 === '4') -> !(false) -> true
-console.log(checkJ);
+const checkOptionJ = !(4 === '4');            //!(4 === '4') -> !(false) -> true
+console.log(checkOptionJ);
 
 // (k).There is no 'on' in both dragon and python
 // console.log('python'.length > 'dragon'.length)
@@ -149,8 +149,8 @@ const bothNoOn = !/(?=(dragon|python))\bon/.test(text);
 console.log("'on' is not present in both dragon and jargon:", bothNoOn); //output should be false
 
 // case II: if on is checked individually in python and jargon
-const StringOne = "dragon";
-const StringTwo = "jargon";
-const bothNoOnFunctwo = !("on" == StringOne) && !("on" == StringTwo);
-console.log("'on' is not present in both dragon and jargon:", bothNoOnFunctwo);
+const firstString = "dragon";
+const secondString = "python";
+const bothNoOnFunctwo = !("on" == firstString) && !("on" == secondString);
+console.log("'on' is not present in both dragon and python:", bothNoOnFunctwo);
 // DEADLINE: EOD
