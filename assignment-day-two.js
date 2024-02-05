@@ -19,7 +19,6 @@ const boiling_point = 100; //boiling point of water
 const density = 1 //density of water
 
 //Question-3
-//Below I have not used const becuase of overwriting issues
 const first_name = 'Pranjal';
 const last_name = 'Sinha';
 const marital_status = 'Single';
@@ -27,7 +26,9 @@ const country = 'India';
 const age = '21'
 
 //Question-4
-let father_name = 'R.K. Sinha', mother_name = 'P. Sinha', fatherAge = 60;
+const father_name = 'R.K. Sinha';
+const mother_name = 'P. Sinha';
+const fatherAge = 60;
 
 //Question-5
 const myAge = '20';

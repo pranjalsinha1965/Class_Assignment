@@ -54,6 +54,8 @@ function triangleArea(base, hypotenuse) {
     // just return the area
     return s;
     }
+
+triangleArea();
     
     // Example usage
     const baseLength = 3;

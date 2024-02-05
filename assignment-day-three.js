@@ -10,7 +10,7 @@ const firstName = "Pranjal";
 const lastName = "Sinha";
 const areaName = "WadgaonSheri";
 
-console.log(FirstName + LastName + " " +AreaName);
+console.log(firstName + lastName + " " +areaName);
 
 const isloggedin = true;
 const isloggedoff = false;
