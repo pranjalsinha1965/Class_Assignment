@@ -1,5 +1,8 @@
 //date : 6th feb, 2024
 
+// very important tool for javascript loops
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+
 //what is parsing ?
 /* Ans. Parsing means analyzing and converting a program into an internal format that a runtime environment can actually run, 
     for example the JavaScript engine inside browsers. 
