@@ -1,6 +1,6 @@
 // 1. If user is 18 or older , give feedback: 'You are allowed to Marry' but if not 18 console feedback stating to wait for the number of years he needs to turn 18.
 
-function drivingAge()
+function driversAge()
 {
 const userAge = 20;
 if (userAge > 18) {
