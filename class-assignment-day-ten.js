@@ -1,8 +1,16 @@
 //date : 6th feb, 2024
 
 //what is parsing ?
+/* Ans. Parsing means analyzing and converting a program into an internal format that a runtime environment can actually run, 
+    for example the JavaScript engine inside browsers. 
+    The browser parses HTML into a DOM tree. HTML parsing involves tokenization and tree construction. */
 
 //Try to explain double shorts operator?
+/* 
+What it does is remove everything after the decimal point. Think of it as a way to round a number. 
+Under the hood what is happening is that we are applying the single tilde operator twice. 
+So actually, there is no real double tilde operator 😆
+*/
 
 console.log(!!'false');                //!!(string)->!(false)->true
 console.log(undefined == false);       
