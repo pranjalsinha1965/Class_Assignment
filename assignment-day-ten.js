@@ -56,8 +56,8 @@ const yourAge = 31;
 myAge > yourAge ? console.log("yourAge is greater than myAge") : console.log("myAge is less than yourAge");
 
 // 4. Check, if a number is even or not.
-const TakeAnyNumber = 21;
-TakeAnyNumber % 2 == 0 ? console.log("The given number is even") : console.log("The given number is odd !!");
+const takeAnyNumber = 21;
+takeAnyNumber % 2 == 0 ? console.log("The given number is even") : console.log("The given number is odd !!");
 
 //5. Write a code which can give grades to students according to theirs scores:
 // 80-100, A
