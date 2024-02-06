@@ -11,7 +11,7 @@ else
     console.log(`you need to wait for ${18-userAge} year(s) before marriage !!`);
 }
 }
-console.log(drivingAge());
+console.log(driversAge());
 
 
 // 2. Compare the values of myAge and yourAge. Based on the comparison and log the result to console stating who is older.
